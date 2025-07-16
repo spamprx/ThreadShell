@@ -1,0 +1,18 @@
+# JOB_NAME: Parallel Scientific Simulation
+# PRIORITY: CRITICAL
+# MEMORY_LIMIT: 4096
+# RUNTIME_LIMIT: 600
+# CORES: 4
+# DEPENDENCIES: 1,2
+# Simulates a long-running scientific computation with parallel processing
+echo "Initializing parallel simulation environment..." && \
+echo "Setting up simulation parameters..." && sleep 2 && \
+for phase in "preprocessing" "computation" "analysis" "postprocessing"; do \
+  echo "Starting $phase phase..." && \
+  for step in {1..5}; do \
+    echo "  $phase step $step/5 running..." && sleep 4 && \
+    echo "  $phase step $step/5 completed" \
+  done && \
+  echo "$phase phase completed" \
+done && \
+echo "Simulation completed successfully! Results saved to simulation_output.dat" 

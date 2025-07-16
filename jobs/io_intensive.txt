@@ -1,0 +1,10 @@
+# JOB_NAME: Data Processing Pipeline
+# PRIORITY: MEDIUM
+# MEMORY_LIMIT: 1024
+# RUNTIME_LIMIT: 180
+# This job simulates I/O intensive data processing
+echo "Starting data processing pipeline..." && \
+find /usr -name "*.txt" -type f | head -100 > /tmp/data_files.txt
+echo "Found $(wc -l < /tmp/data_files.txt) files to process" && \
+while read file; do echo "Processing: $file"; sleep 0.5; done < /tmp/data_files.txt && \
+echo "Data processing completed!" && rm -f /tmp/data_files.txt 

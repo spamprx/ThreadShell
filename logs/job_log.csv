@@ -1,0 +1,58 @@
+Timestamp,JobID,JobName,Command,Priority,Status,ThreadID,CoreID,Duration(ms),Event
+Timestamp,JobID,JobName,Command,Priority,Status,ThreadID,CoreID,Duration(ms),Event
+2025-07-16 18:11:17.537,1,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:11:17.537,1,-,"ls",1,1,139805566498496,0,0,STARTED
+2025-07-16 18:11:17.542,1,-,"ls",1,2,139805566498496,0,4,COMPLETED
+Timestamp,JobID,JobName,Command,Priority,Status,ThreadID,CoreID,Duration(ms),Event
+2025-07-16 18:16:33.855,1,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:16:33.855,1,-,"ls",1,1,140009419683520,0,0,STARTED
+2025-07-16 18:16:33.860,1,-,"ls",1,2,140009419683520,0,5,COMPLETED
+2025-07-16 18:18:23.867,2,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:23.867,2,-,"ls",1,1,140009411290816,0,0,STARTED
+2025-07-16 18:18:23.872,2,-,"ls",1,2,140009411290816,0,5,COMPLETED
+2025-07-16 18:18:28.844,3,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:28.844,3,-,"ls",1,1,140009402898112,0,0,STARTED
+2025-07-16 18:18:28.849,3,-,"ls",1,2,140009402898112,0,4,COMPLETED
+2025-07-16 18:18:31.443,4,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:31.443,4,-,"ls",1,1,140009461647040,0,0,STARTED
+2025-07-16 18:18:31.448,4,-,"ls",1,2,140009461647040,0,5,COMPLETED
+2025-07-16 18:18:32.260,5,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:32.260,5,-,"ls",1,1,140009394505408,0,0,STARTED
+2025-07-16 18:18:32.265,5,-,"ls",1,2,140009394505408,0,4,COMPLETED
+2025-07-16 18:18:32.866,6,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:32.866,6,-,"ls",1,1,140009386112704,0,0,STARTED
+2025-07-16 18:18:32.871,6,-,"ls",1,2,140009386112704,0,5,COMPLETED
+2025-07-16 18:18:42.408,7,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:42.408,7,-,"ls",1,1,140009377720000,0,0,STARTED
+2025-07-16 18:18:42.413,7,-,"ls",1,2,140009377720000,0,5,COMPLETED
+2025-07-16 18:18:46.049,8,-,"evince CV.pdf",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:46.049,8,-,"evince CV.pdf",1,1,140009444861632,0,0,STARTED
+2025-07-16 18:18:50.559,8,-,"evince CV.pdf",1,2,140009444861632,0,4509,COMPLETED
+2025-07-16 18:18:53.687,9,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:18:53.687,9,-,"ls",1,1,140009369327296,0,0,STARTED
+2025-07-16 18:18:53.693,9,-,"ls",1,2,140009369327296,0,5,COMPLETED
+Timestamp,JobID,JobName,Command,Priority,Status,ThreadID,CoreID,Duration(ms),Event
+2025-07-16 18:21:48.796,1,-,"la",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:21:48.796,1,-,"la",1,1,140237581903552,0,0,STARTED
+2025-07-16 18:21:48.801,1,-,"la",1,3,140237581903552,0,4,FAILED
+2025-07-16 18:21:50.976,2,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:21:50.976,2,-,"ls",1,1,140237590296256,0,0,STARTED
+2025-07-16 18:21:50.982,2,-,"ls",1,2,140237590296256,0,5,COMPLETED
+2025-07-16 18:21:54.070,3,-,"ls -a",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:21:54.070,3,-,"ls -a",1,1,140237556725440,0,0,STARTED
+2025-07-16 18:21:54.076,3,-,"ls -a",1,2,140237556725440,0,5,COMPLETED
+2025-07-16 18:22:27.093,4,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:22:27.093,4,-,"ls",1,1,140237531547328,0,0,STARTED
+2025-07-16 18:22:27.099,4,-,"ls",1,2,140237531547328,0,5,COMPLETED
+Timestamp,JobID,JobName,Command,Priority,Status,ThreadID,CoreID,Duration(ms),Event
+2025-07-16 18:25:41.950,1,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:25:41.950,1,-,"ls",1,1,139795190412992,0,0,STARTED
+2025-07-16 18:25:41.956,1,-,"ls",1,2,139795190412992,0,5,COMPLETED
+Timestamp,JobID,JobName,Command,Priority,Status,ThreadID,CoreID,Duration(ms),Event
+2025-07-16 18:31:12.285,1,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:31:12.285,1,-,"ls",1,1,140117884405440,0,0,STARTED
+2025-07-16 18:31:12.291,1,-,"ls",1,2,140117884405440,0,5,COMPLETED
+Timestamp,JobID,JobName,Command,Priority,Status,ThreadID,CoreID,Duration(ms),Event
+2025-07-16 18:35:57.659,1,-,"ls",1,0,thread::id of a non-executing thread,-1,0,SUBMITTED
+2025-07-16 18:35:57.659,1,-,"ls",1,1,140675019531968,0,0,STARTED
+2025-07-16 18:35:57.664,1,-,"ls",1,2,140675019531968,0,4,COMPLETED

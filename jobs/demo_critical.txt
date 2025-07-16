@@ -1,0 +1,4 @@
+# JOB_NAME: Critical System Task
+# PRIORITY: CRITICAL
+# CORES: 2
+echo "Critical task executing..."; sleep 3; echo "Critical task done!"

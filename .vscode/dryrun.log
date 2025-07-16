@@ -1,0 +1,21 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/spamprx/Projects/ThreadShell'
+mkdir -p build logs jobs
+if [ ! -f jobs/sample_job.txt ]; then \
+	echo "Creating sample job files..."; \
+fi
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pthread -O2 -DNDEBUG -Iinclude -c src/job.cpp -o build/job.o
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pthread -O2 -DNDEBUG -Iinclude -c src/logger.cpp -o build/logger.o
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pthread -O2 -DNDEBUG -Iinclude -c src/main.cpp -o build/main.o
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pthread -O2 -DNDEBUG -Iinclude -c src/scheduler.cpp -o build/scheduler.o
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pthread -O2 -DNDEBUG -Iinclude -c src/shell.cpp -o build/shell.o
+mkdir -p build
+g++ build/job.o build/logger.o build/main.o build/scheduler.o build/shell.o -o build/threadshell -lreadline
+echo "Build complete: build/threadshell"
+make: Leaving directory '/home/spamprx/Projects/ThreadShell'
+ 

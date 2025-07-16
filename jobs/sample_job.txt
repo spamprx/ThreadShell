@@ -1,0 +1,4 @@
+# JOB_NAME: Matrix Multiplication
+# PRIORITY: HIGH
+# This is a sample job that simulates a CPU-intensive task
+for i in {1..5}; do echo "Processing matrix block $i..."; sleep 2; done 

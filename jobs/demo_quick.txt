@@ -1,0 +1,3 @@
+# JOB_NAME: Quick Demo Task
+# PRIORITY: MEDIUM
+echo "Quick task starting..."; sleep 2; echo "Quick task completed!"

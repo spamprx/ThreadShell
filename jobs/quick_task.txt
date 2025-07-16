@@ -1,0 +1,10 @@
+# JOB_NAME: Quick System Check
+# PRIORITY: LOW
+# MEMORY_LIMIT: 512
+# RUNTIME_LIMIT: 30
+# Quick system diagnostic task
+echo "Running quick system check..." && \
+echo "CPU Info: $(nproc) cores available" && \
+echo "Memory: $(free -h | grep '^Mem:' | awk '{print $2}')" && \
+echo "Disk Usage: $(df -h / | tail -1 | awk '{print $5}')" && \
+echo "System check completed successfully!" 

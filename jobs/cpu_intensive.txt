@@ -1,0 +1,7 @@
+# JOB_NAME: CPU Intensive Computation
+# PRIORITY: HIGH
+# MEMORY_LIMIT: 2048
+# RUNTIME_LIMIT: 300
+# CORES: 2
+# This job simulates intensive CPU computation like matrix multiplication
+for i in {1..10}; do echo "Computing matrix block $i/10..."; sleep 3; echo "Block $i completed"; done && echo "All computations finished!" 

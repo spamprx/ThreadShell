@@ -1,0 +1,5 @@
+# JOB_NAME: Long Running Task  
+# PRIORITY: LOW
+# MEMORY_LIMIT: 1024
+# RUNTIME_LIMIT: 60
+for i in {1..8}; do echo "Long task progress: $i/8"; sleep 1; done; echo "Long task finished!"
